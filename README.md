@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 📝 To-Do App Full Stack
 
@@ -103,6 +101,3 @@ Desenvolvido por **Davi Lopes** – [https://www.linkedin.com/in/davils](https:/
 ## 📝 Licença
 
 Este projeto está licenciado sob a licença MIT.
-```
-
----
