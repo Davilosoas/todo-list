@@ -15,5 +15,5 @@ export const translateText = async (text) => {
     },
   });
 
-  return res.data.sentences?.[0]?.trans || text;
+  return res.data?.[0][0] || text;
 };
