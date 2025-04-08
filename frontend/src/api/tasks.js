@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL =
-  `${process.env.REACT_APP_API_URL}/api/auth` ||
+  `${process.env.REACT_APP_API_URL}/api/tasks` ||
   "http://localhost:5000/api/tasks";
 
 export const getTasks = (token) =>
