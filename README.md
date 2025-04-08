@@ -61,7 +61,14 @@ DATABASE_URL=postgresql://postgres:postgres@db:5432/todo_db
 JWT_SECRET=sua_chave_secreta
 ```
 
-### 3. Suba os containers
+### 3. Crie um arquivo `.env` na raiz do frontend
+
+```env
+REACT_APP_API_URL=http://localhost:5000
+```
+
+
+### 4. Suba os containers
 
 ```bash
 docker-compose up --build
